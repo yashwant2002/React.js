@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <div className=' absolute w-full p-4 flex justify-between items-center z-50'>
         <Link to={'/'}>
-            <h1 className='uppercase text-red-600 font-nsans-bold cursor-pointer text-5xl'>netfilx</h1>
+            <h1 className='uppercase text-red-600 font-nsans-bold cursor-pointer text-5xl'>movie filx</h1>
         </Link>
         <div>
             <Link to={'/login'}>
