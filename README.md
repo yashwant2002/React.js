@@ -1,46 +1,18 @@
-<h2 align="left">Hi 👋! My name is yash and I'm from Raipur, C.G.</h2>
+### React JS Learning Roadmap: Topics, Theory, and Projects  
 
-###
+| **Step** | **Topic**                  | **Theory**                                                                                                                                             | **Project Idea**                                                                                  |
+|----------|----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
+| 1        | Basics of React Js      | Learn about Props and State management basics.                                                                                         | **Build a Counter App**: Create a simple app where users can increment, decrement, and reset a counter.                                  |
+| 2        | React Hooks               |     **useState** for managing state.**useEffect** for side effects like API calls.                                                                                   | **Weather App**: Fetch weather data from an API, display it, and allow users to search by city.         |
+| 3        | Routing                  | Learn React Router for multi-page navigation..                                                                                      |**Blog App**: Create a blog with a homepage, a posts list, and individual post pages..                            |
+| 4        | Advanced Hooks          | useReducer, useMemo, and useCallback.                                               |**Expense Tracker App**: Manage and categorize expenses, optimize performance for large data.                      |
+| 5        | Context API                 | Sharing global state without prop drilling.                                                                                       |**Theme Switcher App**: Create a light/dark theme toggler using Context API.                              |
+| 6        | Performance Optimization                  |Using React.memo, useRef, and lazy loading.                                                                       |**Image Gallery App**: Optimize rendering and load images lazily..         |
+| 7        | State Management                    | Redux or Zustand:Learn global state management libraries.                                                                              | **Shopping Cart App**: Implement cart functionality with global state management.|
+| 8        | TypeScript with React               | Learn static typing for React apps.                                             | **Task Manager App**: Use TypeScript for task CRUD operations                     |
+| 9        | Server-Side Rendering (Next.js)| Understand SSR for better SEO and performance.                                                                                   | **Portfolio Website**: Build a personal portfolio with SSR and dynamic routing                                          |
+| 10       |Testing   | Unit and integration testing with Jest and React Testing Library.                                                                            | **Form Validation App**: Build and test a form for user registration.                      |
+| 11       | Advanced Frameworks/Tools  | Study frameworks like React or Node.js to expand your JavaScript knowledge into frontend or backend development.                                         | Create a **Chat Application** with a real-time backend (e.g., Node.js and Socket.IO).            |
+| 11       | Full Project  |                                         | Build a clone of a popular app like Trello, Netflix, or YouTube.|
 
-<img align="right" height="150" src="https://yashwant2002.netlify.app/img/me.jfif"  />
-
-###
-
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="30" alt="typescript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="30" alt="react logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="html5 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" alt="css3 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" alt="python logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="30" alt="nodejs logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="30" alt="mongodb logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" height="30" alt="express logo"  />
-</div>
-
-###
-
-<div align="left">
-  <a href="https://www.instagram.com/y_a_s_h___05/?hl=en" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="instagram logo"  />
-  </a>
-  <a href="yashsahu3333@gmail.com" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo"  />
-  </a>
-  <a href="https://www.facebook.com/yashwant.sahu.5817/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Facebook&logo=facebook&label=&color=1877F2&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="facebook logo"  />
-  </a>
-  <a href="https://www.linkedin.com/in/yashwant-sahu-009904203/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
-  </a>
-</div>
-
-###
+This roadmap covers foundational to advanced concepts, ensuring a balance between theoretical understanding and practical application. Each project complements its respective topic to strengthen hands-on skills.
