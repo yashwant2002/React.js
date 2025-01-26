@@ -1,16 +1,13 @@
-import React, { useState, useEffect } from 'react';
-import axios from 'axios';
+import React, { useState, useEffect } from "react";
 
-const App= () => {
-  const [city, setCity] = useState("Delhi"); // Default city
+const App = () => {
+  const [city, setCity] = useState("Delhi"); 
   const [weatherData, setWeatherData] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
 
-  const API_KEY = "e1b52b12d0454b48b9e105743252501"; // Replace with your WeatherAPI key
+  const API_KEY = "e1b52b12d0454b48b9e105743252501"; 
   const API_URL = `https://api.weatherapi.com/v1/current.json`;
-
-  // Function to fetch weather data
   const fetchWeather = async (cityName) => {
     try {
       setLoading(true);
@@ -31,18 +28,13 @@ const App= () => {
       setLoading(false);
     }
   };
-
-  // Fetch weather data when the component mounts or city changes
   useEffect(() => {
     fetchWeather(city);
   }, [city]);
 
-  // Handle city input change
   const handleCityChange = (e) => {
     setCity(e.target.value);
   };
-
-  // Render loading, error, or weather data
   return (
     <div className="min-h-screen bg-blue-100 flex flex-col items-center justify-center p-4">
       <h1 className="text-3xl font-bold mb-6 text-blue-700">Weather App</h1>
@@ -69,7 +61,7 @@ const App= () => {
       {weatherData && (
         <div className="bg-white shadow-md p-6 rounded-lg text-center">
           <h2 className="text-xl font-bold text-blue-600">
-            {weatherData.location.name}, {weatherData.location.country}
+            {weatherData.location.name},{weatherData.location.region}, {weatherData.location.country}
           </h2>
           <p className="text-lg text-gray-700">
             {weatherData.current.condition.text}
@@ -93,3 +85,5 @@ const App= () => {
 };
 
 export default App;
+
+
