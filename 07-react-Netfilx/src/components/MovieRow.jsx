@@ -1,6 +1,7 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react'
 import MovieItem from './MovieItem';
+import { Link } from 'react-router-dom';
 
 function MovieRow({title, url}) {
     const [movies, setMovies] = useState([]);
@@ -17,7 +18,7 @@ function MovieRow({title, url}) {
             <div id={`slider`}
                 className='w-full h-full overflow-x-scroll whitespace-nowrap scroll-smooth scrollbar-hide'>
                     {movies.map((movie)=>(
-                        <MovieItem key={movie.id} movie={movie} />
+                        <Link to={`/movie/${movie.id}`}  key={movie.id}><MovieItem movie={movie} /></Link>
                     ) )}
                 </div>
         </div>
